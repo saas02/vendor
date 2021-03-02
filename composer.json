@@ -1,0 +1,28 @@
+{
+    "name": "interrapidisimo/credibanco_magento_api_php",
+    "description" : "Credibanco PHP API library",
+    "version": "1.0.0",
+    "keywords": [
+      "bepaid",
+      "begateway",
+      "payment processing",
+      "api"
+    ],
+    "license" : "MIT",
+    "authors": [
+      { "name" : "Interrapidisimo",
+        "email": "ingenierosenior.desarrollo3@interrapidisimo.com"
+      }
+    ],
+    "require" : {
+        "php" : ">= 5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+     "psr-4": { "BeGateway\\" : "lib/BeGateway" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
